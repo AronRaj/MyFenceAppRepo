@@ -22,7 +22,7 @@ import com.myfence.model.Login;
 @RestController
 public class LoginController {
 	
-	MongoClient mongoClient = new MongoClient("localhost", 27017);
+	MongoClient mongoClient = new MongoClient();
 	MongoDatabase db = mongoClient.getDatabase("test");
 	
 	
